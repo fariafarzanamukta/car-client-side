@@ -19,7 +19,7 @@ const Review = () => {
         <Box sx={{ flexGrow: 1 }}>
             <Container>
                 <Typography sx={{ fontWeight: 400, m: 4 }} variant="h4" component="div">
-                    <h1 className="text-success p-4"> Clint Reviews </h1>
+                    <h1 className="text-success p-4"> Client Reviews </h1>
                 </Typography>
                 <Grid container spacing={{ xs: 2, md: 2 }} columns={{ xs: 4, sm: 8, md: 12 }}>
                     {
@@ -27,7 +27,7 @@ const Review = () => {
 
 
                             <Grid item xs={4} sm={4} md={4}>
-                                <Card sx={{ minWidth: 300, minHeight: 400, border: 0, boxShadow: 1, backgroundColor: "#BDBBB8" }}>
+                                <Card sx={{ minWidth: 300, minHeight: 500, border: 0, boxShadow: 1, backgroundColor: "#BDBBB8" }}>
 
                                     <CardContent>
                                         <Typography variant="h5" component="div">

@@ -12,7 +12,7 @@ const Service = ({ service }) => {
     const { _id, title, ammount, description, img } = service;
     return (
         <Grid item xs={4} sm={4} md={4}>
-            <Card sx={{ minWidth: 300, minHeight: 400, border: 0, boxShadow: 5, backgroundColor: "#CCFFCC" }}>
+            <Card sx={{ minWidth: 300, minHeight: 500, border: 0, boxShadow: 5, backgroundColor: "#CCFFCC" }}>
                 <CardMedia
                     component="img"
                     sx={{backgroundColor: "#CCFFCC"}}

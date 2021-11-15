@@ -13,7 +13,7 @@ const Explore = (props) => {
 
     return (
         <Grid item xs={4} sm={4} md={4}>
-            <Card sx={{ minWidth: 300, minHeight: 400, border: 0, boxShadow: 5, backgroundColor: "#CCFFCC" }}>
+            <Card sx={{ minWidth: 300, minHeight: 500, border: 0, boxShadow: 5, backgroundColor: "#CCFFCC" }}>
                 <CardMedia
                     className="mt-2"
                     component="img"
