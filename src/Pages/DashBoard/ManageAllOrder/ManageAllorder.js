@@ -8,7 +8,7 @@ const ManageAllorder = () => {
     const [allOrder, setAllOrder] = useState([]);
 
     useEffect(() => {
-        fetch(`http://localhost:5000/order`)
+        fetch('https://cryptic-caverns-85378.herokuapp.com/order')
             .then(res => res.json())
             .then(data => setAllOrder(data));
     }, [])

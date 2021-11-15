@@ -9,7 +9,7 @@ const AddProduct = () => {
         console.log(data);
 
 
-        axios.post(`http://localhost:5000/car`, data)
+        axios.post(`https://cryptic-caverns-85378.herokuapp.com/car`, data)
             .then(res => {
                 if (res.data.insertedId) {
                     alert('Added Successfully');
