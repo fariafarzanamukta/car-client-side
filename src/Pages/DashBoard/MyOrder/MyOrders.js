@@ -8,8 +8,6 @@ import Grid from '@mui/material/Grid';
 import { Button, Card, CardContent, CardMedia, Container, Typography } from '@mui/material';
 
 
-
-
 const MyOrders = () => {
     const { user } = useAuth();
     const [myOrder, SetMyOrder] = useState()

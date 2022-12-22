@@ -20,7 +20,7 @@ const Banner = () => {
                 }}>
                     <Box>
                         
-                        <Typography variant="h2" style={{ color: 'white'}}>
+                        <Typography variant="h2" className="Text" style={{ color: 'white'}}>
                         QUALITY IN
 
                         </Typography>
